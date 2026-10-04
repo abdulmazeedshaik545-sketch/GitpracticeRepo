@@ -1,0 +1,43 @@
+xcrun: error: unable to load libxcrun (dlopen(/Library/Developer/CommandLineTools/usr/lib/libxcrun.dylib, 0x0005): tried: '/Library/Developer/CommandLineTools/usr/lib/libxcrun.dylib' (fat file, but missing compatible architecture (have 'arm64,arm64e', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Library/Developer/CommandLineTools/usr/lib/libxcrun.dylib' (no such file), '/Library/Developer/CommandLineTools/usr/lib/libxcrun.dylib' (fat file, but missing compatible architecture (have 'arm64,arm64e', need 'x86_64'))).
+skabdulmazeed@SKs-MacBook-Air ~ % cd /Users/skabdulmazeed/Desktop/GitPractice 
+skabdulmazeed@SKs-MacBook-Air GitPractice % git 
+xcrun: error: unable to load libxcrun (dlopen(/Library/Developer/CommandLineTools/usr/lib/libxcrun.dylib, 0x0005): tried: '/Library/Developer/CommandLineTools/usr/lib/libxcrun.dylib' (fat file, but missing compatible architecture (have 'arm64,arm64e', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Library/Developer/CommandLineTools/usr/lib/libxcrun.dylib' (no such file), '/Library/Developer/CommandLineTools/usr/lib/libxcrun.dylib' (fat file, but missing compatible architecture (have 'arm64,arm64e', need 'x86_64'))).
+skabdulmazeed@SKs-MacBook-Air GitPractice % git clone https://github.com/abdulmazeedshaik545-sketch/GitpracticeRepo.git
+xcrun: error: unable to load libxcrun (dlopen(/Library/Developer/CommandLineTools/usr/lib/libxcrun.dylib, 0x0005): tried: '/Library/Developer/CommandLineTools/usr/lib/libxcrun.dylib' (fat file, but missing compatible architecture (have 'arm64,arm64e', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Library/Developer/CommandLineTools/usr/lib/libxcrun.dylib' (no such file), '/Library/Developer/CommandLineTools/usr/lib/libxcrun.dylib' (fat file, but missing compatible architecture (have 'arm64,arm64e', need 'x86_64'))).
+skabdulmazeed@SKs-MacBook-Air GitPractice % git install
+xcrun: error: unable to load libxcrun (dlopen(/Library/Developer/CommandLineTools/usr/lib/libxcrun.dylib, 0x0005): tried: '/Library/Developer/CommandLineTools/usr/lib/libxcrun.dylib' (fat file, but missing compatible architecture (have 'arm64,arm64e', need 'x86_64')), '/System/Volumes/Preboot/Cryptexes/OS/Library/Developer/CommandLineTools/usr/lib/libxcrun.dylib' (no such file), '/Library/Developer/CommandLineTools/usr/lib/libxcrun.dylib' (fat file, but missing compatible architecture (have 'arm64,arm64e', need 'x86_64'))).
+skabdulmazeed@SKs-MacBook-Air GitPractice % clear
+
+skabdulmazeed@SKs-MacBook-Air GitPractice % sudo rm -rf /Library/Developer/CommandLineTools
+
+Password:
+
+
+skabdulmazeed@SKs-MacBook-Air GitPractice % xcode-select --install
+xcode-select: note: install requested for command line developer tools
+skabdulmazeed@SKs-MacBook-Air GitPractice % git --version
+git version 2.50.1 (Apple Git-155)
+skabdulmazeed@SKs-MacBook-Air GitPractice % git clone https://github.com/abdulmazeedshaik545-sketch/GitpracticeRepo.git
+Cloning into 'GitpracticeRepo'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+skabdulmazeed@SKs-MacBook-Air GitPractice % git branch
+fatal: not a git repository (or any of the parent directories): .git
+skabdulmazeed@SKs-MacBook-Air GitPractice % git status
+fatal: not a git repository (or any of the parent directories): .git
+skabdulmazeed@SKs-MacBook-Air GitPractice % cd /Users/skabdulmazeed/Desktop/GitPractice/GitpracticeRepo
+skabdulmazeed@SKs-MacBook-Air GitpracticeRepo % git branch
+* main
+skabdulmazeed@SKs-MacBook-Air GitpracticeRepo % git branch mazeed
+skabdulmazeed@SKs-MacBook-Air GitpracticeRepo % git branch
+* main
+  mazeed
+skabdulmazeed@SKs-MacBook-Air GitpracticeRepo % git checkout mazeed
+Switched to branch 'mazeed'
+skabdulmazeed@SKs-MacBook-Air GitpracticeRepo % git branch
+  main
+* mazeed
+skabdulmazeed@SKs-MacBook-Air GitpracticeRepo % 
